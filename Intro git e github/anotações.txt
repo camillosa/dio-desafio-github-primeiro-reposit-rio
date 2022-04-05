@@ -1,1 +1,18 @@
+### Como trazer do gitHub pro git
 
+vai em code;
+pega o link ssh;
+vai no git abre o local em que deseja colocar o arquivo (cd c/);
+mkdir “nome da pasta pro arquivo” (para criar nova pasta que vai receber o arquivo);
+cd “nome da pasta pro arquivo”
+git clone “nomedoarquivo” 
+git status (se quiser ver como ficou dentro da pasta)
+cd “nome do arquivo”
+mkdir “se quiser acrescentar mais coisas dentro do arquivo clonado”
+
+
+### Como levar as alterações de volta pro GitHub (commitar)
+
+git add .  (pra adicionar tudo que foi alterado, ou git add *)
+git commit -m “explicar o que vai subir”  (vai pra área de passagem); 
+git push origin main     (pra realmente subir pro github de volta).
